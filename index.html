@@ -1,1 +1,118 @@
-Hello Word
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Eco Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<!--animate-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+	<script>
+		 new WOW().init();
+	</script>
+<!--//end-animate-->
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">		
+		<!--header-->
+		<div class="banner-text">
+			<div class="logo">	
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div> 
+			<div class="top-nav">	
+				<ul class="nav1 cl-effect-1">
+					<li><a target="_blank" href="https://github.com/jsonzou">My Git Home</a></li>
+					<li><a target="_blank" href="https://github.com/jsonzou/jmockdata" class="scroll">【Java】Jmockdata</a></li>
+					<li><a target="_blank" href="https://github.com/jsonzou/jquery-printFinal" class="scroll">【Js】jQuery-printFinal</a></li>
+					<li><a target="_blank" href="https://github.com/jsonzou/jquery-smartAD" class="scroll">【Js】jQuery-smartAD</a></li>
+					<li><a target="_blank" href="https://github.com/jsonzou/vtor" class="scroll">【Js】vtor</a></li>
+					<li><a target="_blank" href="https://github.com/jsonzou/authorityFilter" class="scroll">【Java】authorityFilter</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- banner Slider starts Here -->
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			// You can also use "$(window).load(function() {"
+				$(function () {
+				// Slideshow 3
+					$("#slider3").responsiveSlides({
+					auto: true,
+					pager:false,
+					nav:true,
+					speed: 500,
+					namespace: "callbacks",
+					before: function () {
+					$('.events').append("<li>before event fired.</li>");
+					},
+					after: function () {
+						$('.events').append("<li>after event fired.</li>");
+					}
+				});	
+			});
+		</script>
+		<!--//End-slider-script -->
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider3">
+				<li>					
+					<div class="banner2">						
+					</div>
+				</li>
+				<li>					
+					<div class="banner1">						
+					</div>
+				</li>								
+			</ul>
+		</div>
+	</div>
+	<!--//banner-->
+	
+	
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+			$(document).ready(function() {
+				/*
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear' 
+				};
+				*/
+				
+				$().UItoTop({ easingType: 'easeOutQuart' });
+				
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"> </script>
+</body>
+</html>
