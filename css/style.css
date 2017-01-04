@@ -36,12 +36,37 @@ body a:hover{
 }
 .banner1 {
   min-height: 700px;
-  background: url(../images/banner.jpg)no-repeat 0px 0px;
+  background: url(../images/banner1.jpg)no-repeat 0px 0px;
   background-size: cover;
 }
 .banner2 {
   min-height: 700px;
-  background: url(../images/banner1.jpg)no-repeat 0px -114px;
+  background: url(../images/banner2.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner3 {
+  min-height: 700px;
+  background: url(../images/banner3.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner4 {
+  min-height: 700px;
+  background: url(../images/banner4.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner5 {
+  min-height: 700px;
+  background: url(../images/banner5.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner6 {
+  min-height: 700px;
+  background: url(../images/banner6.jpg)no-repeat 0px -114px;
+  background-size: cover;
+}
+.banner7 {
+  min-height: 700px;
+  background: url(../images/banner7.jpg)no-repeat 0px -114px;
   background-size: cover;
 }
 .banner-text {
