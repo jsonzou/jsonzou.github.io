@@ -69,6 +69,7 @@
                             'img' : image
                         },
                         success : function(message) {
+                            alert(message);
                             if(message!=null){
                                 flag=false;
                                 window.location.href='qRCodeActionshow.action?message='+message;
